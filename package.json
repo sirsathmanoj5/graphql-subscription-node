@@ -1,0 +1,31 @@
+{
+  "name": "graphql-subscription-node",
+  "version": "1.0.0",
+  "description": "web socket",
+  "main": "websocket-server.js",
+  "scripts": {
+    "ws-start": "tsc && nodemon dist/websocket-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sirsathmanoj5/graphql-subscription-node.git"
+  },
+  "author": "Manoj Sirsath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sirsathmanoj5/graphql-subscription-node/issues"
+  },
+  "homepage": "https://github.com/sirsathmanoj5/graphql-subscription-node#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/ws": "^8.5.13"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.11.2",
+    "apollo-server": "^3.13.0",
+    "graphql-tools": "^9.0.9",
+    "graphql-ws": "^5.16.0",
+    "ws": "^8.18.0"
+  }
+}
